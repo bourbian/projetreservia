@@ -1,0 +1,447 @@
+#conteneur >div
+{
+    flex-wrap: wrap;
+    font-family : 'Raleway' ;
+}
+    /**
+ {
+    border: 1px solid black;
+}*/
+.header
+{
+width: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.hebergement
+{
+    color: #0065FC;
+    margin-right: 40px;
+}
+.inscrire
+{
+    color:#0065FC;
+  
+}
+.activite
+{
+margin-right: 40px;
+}
+.heber-activ
+{ display:flex;
+
+}
+
+.partie2
+{
+    width: auto;
+    display:flex;
+    justify-content:space-around;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    
+}
+.trouver
+{
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.centre
+{
+    font-weight: normal;
+    font-size: 12px;
+   margin-top: -15px;
+   margin-bottom: 15px;
+   font-family : Raleway;
+   padding-top: 20px;
+}
+input
+{
+    border-style: none;
+    border:1px solid #F2F2F2;
+}
+button
+{
+    display: none;
+    
+    
+}
+#menu
+{
+    /*width: 100%;
+    /*height: auto;*/
+    display:flex;
+    flex-direction: column;
+    /*margin-top: 1px;*/
+    font-weight: bold;
+} 
+.nom, .nom1, .descr3
+{
+    font-family: raleway;
+    font-weight: bold;
+}
+.prix
+{
+    font-weight: normal;
+}
+.fa-dog, .fa-heart, .fa-child, .fa-money-bill-wave
+{
+    background-color:#DEEBFF;
+    border-radius: 50%;
+    border: 1x solid black;
+    padding: 8px;
+    margin-right: 15px; 
+}
+.fa-map-marker-alt
+{
+    background-color:#F2F2F2;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    /*border: 1x solid black;*/
+    padding: 8px;
+    height: 20px;
+    
+}
+.rechercher1
+{
+
+    justify-content: flex-start;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.filtres
+{
+height: auto;
+width: auto;
+display: flex;
+justify-content:flex-start;
+margin-top: 30px;
+padding-right: 5px;
+flex-wrap: wrap;
+}
+.eco-fami
+{
+    display: flex;
+}
+.debut
+{ 
+    margin-right: 50px;
+    margin-top: 10px;
+}    
+
+.economique, .familial, .romantique, .animaux
+{
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 15px;
+    border-color:#DEEBFF;
+    border-left: none;
+    width: auto;
+    font-weight: bold;
+    margin-right: 30px;
+    padding-right: 30px;
+   /* margin-top: -10px;  */  
+}
+.economique:hover, .familial:hover, .romantique:hover, .animaux:hover
+{
+    color:blue;
+    text-decoration:underline;
+}
+/*.economique
+{
+   margin-left: 30px;
+}*/
+
+.touthebergement
+{
+    display: flex;
+    height: auto;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+}
+.case
+{
+    width: 65%;
+    height: auto;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: none;
+    border-radius: 15px;
+    padding: 3px;
+    
+}
+.case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8, .case9
+{
+    background-color:white;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+}
+
+.hebergement1
+{
+    width: 100%;
+    height:auto;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.afficher
+{
+    width: 100%;
+    height: 2%;
+   /* background-color:rgb(197, 184, 209);
+    text-align: left;*/
+    margin-top: -30px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: raleway;
+}
+.contain
+{
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+
+}
+.a
+{
+    flex-wrap: wrap;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: gray;
+    font-family : 'Raleway';
+    
+}
+.populaire
+{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fa-chart-line
+{
+    margin-left: 180px;
+}
+
+.case7, .case8, .case9
+{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.populaire2
+{
+    width: 27%;
+   background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+.image2 > img:first-child
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}  
+.nom1
+{
+margin-top: 20px;
+margin-bottom: 30px;
+padding: 10px;
+}
+.activite1
+{
+    width: 100%;
+   /* height: 5%;*/
+    /*background-color: cornsilk;*/
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+    box-sizing: border-box;
+
+}
+.acti
+{
+    width: auto;
+    height: auto;
+
+   /* background-color: brown; */
+   /* padding-inline-end: 10px;*/
+     /*flex-direction: column;*/
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.ph2
+{
+    flex-direction: column;
+
+}
+.image > img:first-child
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.descr3
+{
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border:1px solid ;
+    border-color: #F2F2F2;
+    border-top: none;
+   padding: 10px;
+    font-size: 12px;
+    width: auto;
+
+    
+}
+.photo2, .photo5
+{
+    margin-bottom: 20px;
+}
+    
+#pieddepage
+{
+    width: 100%;
+    height: auto;
+    background-color:  #F2F2F2;
+    justify-content:flex-start;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-style: none;
+
+    
+}
+
+p
+    {
+        font-weight: bold;
+    }
+#pieddepage > div
+{
+margin-right: 150px;
+}
+
+.image3 :img:first-child
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+@media screen and (max-width: 640px) 
+ {
+  .rechercher1, .partie2, .a, .filtres, .hebergement, .acti, #pieddepage, .touthebergement
+     {
+       
+         flex-direction: column;        
+       
+     }
+    
+    .populaire2
+    {
+        position: relative ;
+        width: 80%;
+        order: -8;
+        padding: 2px;
+        margin-bottom: 5px;
+    
+    }
+    .rechercher1
+    {
+     position: relative; left: 0; top: 20px; width: 50%; height: 35px;
+    }
+    button
+        {
+        display: inline-block;
+        }
+    .boutton
+    {
+        display:none;
+    }
+    .inscrire
+    {
+        order: 1;
+        padding: 5px;
+    }
+    .hebergement
+    {
+       margin-right: 100px;
+      
+    }
+    
+    .header{
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    .partie2
+    {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .heber-activ
+    {
+        display: flex;
+        width: 100%;
+        position:absolute; top: 50px; left: 15px; width: 80%; height: auto; 
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+
+    .nom1
+    {
+    
+        margin-bottom: 20px;
+        
+    }
+    .case7, .case8, .case9
+    {
+    margin-bottom: 30px;
+    }
+    .case
+    {
+    background-color: white;
+    }
+    
+
+    .fa-map-marker-alt
+    {
+        width: auto;    
+    }
+    .romantique, .animaux
+    {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+    .eco-fami
+    {
+        margin-bottom: 5px;
+    }
+    .descr3
+    {
+        width: 59%;
+    }
+    .contain
+    {
+        height: 150px;
+    }
+    }    
